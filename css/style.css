@@ -13,3 +13,27 @@ header {
 .header-left h2 {
 	font-size: 60px;
 }
+
+main {
+	background: url("../img/hirai3.jpg");
+    height: 90vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 20px;
+}
+
+.now {
+	
+}
+
+
+
+
+

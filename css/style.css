@@ -101,7 +101,7 @@ p {
 
 .hope {
 	position: relative;
-	height: 75vh;
+	height: 90vh;
 	margin-top: 50px;
 } 
 
@@ -117,3 +117,77 @@ p {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
+
+@media(max-width: 670px) {
+
+	.header-left h2 {
+    	font-size: 30px;
+	}
+
+    h3 {
+    	font-size: 40px;
+	}
+
+	p {
+      	font-size: 18px;
+      	text-align: left;
+	}
+
+	.now {
+     	height: 90vh;
+	}
+
+	.goal {
+    height: 110vh;
+    margin-top: 50px;
+    position: relative;
+}
+
+	.goal h3 {
+    	position: absolute;
+   	 	top: -40px;
+  		left: 50%;
+    	margin-left: -100px;
+	}
+
+	.past h3 {
+    	position: absolute;
+    	left: 70%;
+    	margin-left: -195px;
+    	font-size: 30px;
+    	margin-top: 15px;
+	}
+
+	.want h3 {
+   		top: -23px;
+    	margin-left: -124px;
+    	font-size: 32px;
+	}
+
+	.want {
+    	position: relative;
+    	height: 35vh;
+    	margin-top: 50px;
+	}
+
+	.hope h3 {
+	    top: -25px;
+	    margin-left: -128px;
+	    font-size: 32px;
+	}
+
+	.hope {
+	    height: auto;
+	}
+
+	main {
+	    padding-bottom: 30px;
+	}
+}
+
+
+
+
+
+
+

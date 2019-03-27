@@ -1,1 +1,7 @@
-console.log(1)
+$(function () {
+	
+
+	$('header').on('click', function () {
+		$('.now').removeClass('hide');
+	})
+});

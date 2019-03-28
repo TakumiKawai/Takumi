@@ -14,23 +14,23 @@ $(function () {
 		
 
 		if ($(window).scrollTop() > goal) {
-			$('.goal h3').fadeIn(4000);
-			$('.goal-sentence').fadeIn(2000);			
+			$('.goal h3').fadeIn(2000);
+			$('.goal-sentence').fadeIn(6000);			
 		}
 
 		if ($(window).scrollTop() > past) {
-			$('.past h3').fadeIn(4000);
-			$('.past-sentence').fadeIn(2000);
+			$('.past h3').fadeIn(2000);
+			$('.past-sentence').fadeIn(6000);
 		}
 
 		if ($(window).scrollTop() > want) {
-			$('.want h3').fadeIn(4000);
-			$('.want-sentence').fadeIn(2000);
+			$('.want h3').fadeIn(2000);
+			$('.want-sentence').fadeIn(6000);
 		}
 
 		if ($(window).scrollTop() > hope) {
-			$('.hope h3').fadeIn(4000);
-			$('.hope-sentence').fadeIn(2000);
+			$('.hope h3').fadeIn(2000);
+			$('.hope-sentence').fadeIn(6000);
 		}
 	})
 });

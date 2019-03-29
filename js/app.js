@@ -4,33 +4,33 @@ $(function () {
 	$('.now p').fadeIn(3000);
 
 
-	let goal = $('.goal').offset().top -  400;
-	let past = $('.past').offset().top -  400;
-	let want = $('.want').offset().top -  400;
-	let hope = $('.hope').offset().top -  400;
+	let goal = $('.goal').offset().top -  700;
+	let past = $('.past').offset().top -  700;
+	let want = $('.want').offset().top -  700;
+	let hope = $('.hope').offset().top -  700;
 
 	$(window).on('scroll', function () {
 
 		
 
 		if ($(window).scrollTop() > goal) {
-			$('.goal h3').fadeIn(2000);
-			$('.goal-sentence').fadeIn(6000);			
+			$('.goal h3').slideDown(4000);
+			$('.goal-sentence').fadeIn(2000);			
 		}
 
 		if ($(window).scrollTop() > past) {
-			$('.past h3').fadeIn(2000);
-			$('.past-sentence').fadeIn(6000);
+			$('.past h3').slideDown(4000);
+			$('.past-sentence').fadeIn(2000);
 		}
 
 		if ($(window).scrollTop() > want) {
-			$('.want h3').fadeIn(2000);
-			$('.want-sentence').fadeIn(6000);
+			$('.want h3').slideDown(4000);
+			$('.want-sentence').fadeIn(2000);
 		}
 
 		if ($(window).scrollTop() > hope) {
-			$('.hope h3').fadeIn(2000);
-			$('.hope-sentence').fadeIn(6000);
+			$('.hope h3').slideDown(4000);
+			$('.hope-sentence').fadeIn(2000);
 		}
 	})
 });

@@ -70,7 +70,7 @@ p {
 .past {
 	position: relative;
 	height: 75vh;
-	margin-top: 50px;
+	margin-top: 250px;
 }
 
 .past h3 {
@@ -184,6 +184,7 @@ p {
 	}
 
 	.hope {
+			margin-top: 30px;
 	    height: auto;
 	}
 

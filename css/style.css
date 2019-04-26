@@ -62,8 +62,10 @@ p {
 
 .goal-sentence {
 	background: url("../img/sutaba.jpg");
-	background: cover;
 	/*background-position: center center;*/
+	/*background-position: 30% 60%;*/
+	color: #BBFFFF;
+	background: cover;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -150,7 +152,7 @@ p {
     height: 110vh;
     margin-top: 50px;
     position: relative;
-}
+	}
 
 	.goal h3 {
     	position: absolute;

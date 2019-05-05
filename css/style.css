@@ -19,6 +19,42 @@ header {
 	font-size: 60px;
 }
 
+.header-right {
+	display: flex;
+}
+
+.header-right a {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.fa {
+ 	margin-right: 5px;
+}
+
+.fab {
+ 	margin-right: 5px;
+}
+
+.twitter {
+	background-color: #55acee;
+
+}
+
+.btn {
+  padding: 6px 1em;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+  /*display: none;*/
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
 main {
 	background: url("../img/sea3.jpg");
     background-attachment: fixed;
@@ -82,6 +118,7 @@ p {
 	top: -40px;
 	left: 50%;
 	margin-left: -225px;
+	color: white;
 }
 
 .past-sentence {

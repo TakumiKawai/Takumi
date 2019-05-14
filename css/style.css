@@ -184,6 +184,7 @@ p {
 	}
 
 	.now {
+			margin-top: -60px;
      	height: 90vh;
 	}
 
